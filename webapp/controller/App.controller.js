@@ -5,7 +5,7 @@ sap.ui.define([
     "sap/ui/model/resource/ResourceModel"
 ], function (Controller, MessageToast, JSONModel, ResourceModel) {
     "user strict"
-    return Controller.extend("sap.ui.walkthrough.App", {
+    return Controller.extend("sap.ui.demo.walkthrough.App", {
 
         onShowHello: function () {
 
